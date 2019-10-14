@@ -13,10 +13,11 @@
 }
 
 .button-style-header{
-    font-family: Verdana;
+    font-family: Arial;
     font-size: 14px;
     font-weight: 100;
 }
+
 @media only screen and (max-width: 1000px){
     .logo{
       display: none;
@@ -39,7 +40,7 @@
 .logo{
     height: 23px;
     margin: 28px;
-  }
+}
 /* END header*/
 
 /* START nav topics*/
@@ -56,39 +57,134 @@
 /* START nav topics*/
 
 /* START principal content*/
-.card-main{
-    height: 260px;
-    background-color: lightcoral;
-    margin-top: 20px;
+.card-body-principal{
+    font-family: open sans;
 }
 
-.card-inside{
-    height: 70px;
-    background-color: brown;
-    margin-top: 20px;
-
+.card-title-principal{
+    font-weight: 600;   
+    font-size: 20px;
 }
-/* START principal content*/
+
+.card-summary-principal{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.502);
+    margin-top: -15px;
+}
+
+.card-autor-principal{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.735);
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.card-create-pricipal{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.502);
+    font-weight: 500;
+    margin-top: -13px;
+}
+
+.card-group-inside{
+    font-family: open sans;
+}
+
+.card-group-topics{
+    display: flex;
+    align-items: center;
+}
+
+.card-title-topics{
+    font-weight: 600;   
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.card-autor-topics{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.735);
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.card-create-topics{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.502);
+    font-weight: 600;
+    margin-top: -13px;
+}
+
+.card-title-principal-2{
+    font-weight: 600;   
+    font-size: 18px;
+}
+/* END principal content*/
 
 /* START nav se all*/
 #button-see-all{
-    height: 70px;
-    font-family: Verdana;
+    font-family: Arial;
     font-size: 13px;
-    font-weight: 100;
-    color: #03a87c!important;
-    letter-spacing: 1px;
+    font-weight: 80;
+    color: #018f69!important;
+    /* letter-spacing: 1px; */
     font-stretch: condensed;
     font-size-adjust: 0.58;
 }
+
+.line-bottom{
+    border-top: 0.5px solid rgba(0, 0, 0, 0.687);
+  }
 /* END nav se all*/
 
 /* START subscriber*/
+@media only screen and (max-width: 1000px){
+    .card-img-subscriber{
+      display: none;
+    }
+} 
+
+@media only screen and (min-width: 1000px){
+    .card-img-subscriber-small{
+      display: none;
+    }
+}
 .container-subscriber{
-    height: 150px;
-    background-color: olive;
+    background-color: rgb(252, 252, 252);
+}
+
+.card-content-subscriber{
+    display: flex;
+    align-items: center
+}
+
+.card-title-subscriber{
+    font-family: times new;
+    font-size: 45px;
+    font-weight: 100;
+
+}
+
+.card-text-subscriber{
+    font-family: arial;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.502);
+}
+
+.button-style-subscriber{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.text-style-subscriber{
+    font-family: verdana;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.714);
 }
 /* END subscriber*/
+
 
 /* START static container*/
 .container-article-static{
