@@ -7,9 +7,16 @@
 /* START header*/
 .header-nav-container{
     height: 70px;
-    background-color: aqua;
 }
 
+.header-nav-button{
+}
+
+.button-style-header{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: 100;
+}
 @media only screen and (max-width: 1000px){
     .logo{
       display: none;
@@ -24,16 +31,27 @@
 
 .logo-small{
     margin-top: 10px;
-    background-size: 70px;
-    width: 70px;
-    height: 70px;
-}    
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+} 
+
+.logo{
+    height: 23px;
+    margin: 28px;
+  }
 /* END header*/
 
 /* START nav topics*/
 .nav-link-item{
     height: 70px;
-    background-color: blue;
+    /* background-color: blue; */
+}
+
+.nav-link-item{
+    font-family: Verdana;
+    font-size: 13px;
+    font-weight: 100;
 }
 /* START nav topics*/
 
@@ -53,9 +71,15 @@
 /* START principal content*/
 
 /* START nav se all*/
-.container-button{
+#button-see-all{
     height: 70px;
-    background-color: blueviolet;
+    font-family: Verdana;
+    font-size: 13px;
+    font-weight: 100;
+    color: #03a87c!important;
+    letter-spacing: 1px;
+    font-stretch: condensed;
+    font-size-adjust: 0.58;
 }
 /* END nav se all*/
 
