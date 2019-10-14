@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* START header*/
+.header-nav-container{
+    height: 70px;
+    background-color: aqua;
+}
+
+@media only screen and (max-width: 1000px){
+    .logo{
+      display: none;
+    }
+} 
+
+@media only screen and (min-width: 1000px){
+    .logo-small{
+      display: none;
+    }
+}
+
+.logo-small{
+    margin-top: 10px;
+    background-size: 70px;
+    width: 70px;
+    height: 70px;
+}    
+/* END header*/
+
+/* START nav topics*/
+.nav-link-item{
+    height: 70px;
+    background-color: blue;
+}
+/* START nav topics*/
+
+/* START principal content*/
+.card-main{
+    height: 260px;
+    background-color: lightcoral;
+    margin-top: 20px;
+}
+
+.card-inside{
+    height: 70px;
+    background-color: brown;
+    margin-top: 20px;
+
+}
+/* START principal content*/
+
+/* START nav se all*/
+.container-button{
+    height: 70px;
+    background-color: blueviolet;
+}
+/* END nav se all*/
+
+/* START subscriber*/
+.container-subscriber{
+    height: 150px;
+    background-color: olive;
+}
+/* END subscriber*/
+
+/* START static container*/
+.container-article-static{
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.container-popular-static{
+    height: 100px;
+    background-color: blue;
+}
+/* START static container*/
+
+/* START dynamic container*/
+.container-article-dynamic{
+    height: 100px;
+    background-color: palegreen;
+}
+
+.container-popular-dynamic{
+    height: 100px;
+    background-color: sandybrown;
+}
+/* START dynamic container*/
+
+
